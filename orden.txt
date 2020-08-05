@@ -1,0 +1,20 @@
+Componentes
+
+    Barra superior 
+        Unicamente imagen de logotipo comiditas mercado en csas 
+
+    Formulario pedido
+        Formulario de frutas verduras y basicos, cada cosa necesita foto, nombre, precio, y cantidad comprada
+        la información de cada fruta va a vivir en firebase, por lo que tiene que ser componentes dinamicos 
+        la idea que tengo es crear una función que me perMita detectar que fruta estoy marcando y que cantidad
+        fue seleccionada, detección(id, cantidad)
+
+    Formulario informacion de usuario 
+        Información general, Nombre completo, calle y numero, colonia, celular, municipio (2 opciones apaseo y celaya) y forma de pago 
+        efectivo trasferencia y codi 
+
+    Ticket de pedido
+        Puede ser creado dinamicamente y ser mostrado con una pestaña a un lado 
+
+    Pie de pagina 
+        Redes sociale y numero de contacto 

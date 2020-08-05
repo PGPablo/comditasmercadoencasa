@@ -1,0 +1,10 @@
+.banner_thanks{
+    background-image: url("https://scontent.fgdl3-1.fna.fbcdn.net/v/t1.0-9/p960x960/107670836_109373820847377_6183418565695789988_o.png?_nc_cat=108&_nc_sid=85a577&_nc_eui2=AeFJbWYB22jwmaQLrcA7jzWs1L0lMMvlRVjUvSUwy-VFWI1YrZxJ_sAVs2kzTWtc1E740BIU-UrKfFJqWC7Q_pGQ&_nc_ohc=xLs5udPCOSIAX9DH9yi&_nc_ht=scontent.fgdl3-1.fna&oh=f11496212e1a9895caaee97f159ad230&oe=5F399805");
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    height: 150px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,180 @@
+.linea_amarillo{
+    background-color: #f7ee4e;
+    height: 12px;
+    width: 100%;
+}
+
+.linea_verde{
+    background-color: #1e8134;
+    height: 12px;
+    width: 100%;
+}
+
+.linea_roja{
+    background-color: #e02d2d;
+    height: 12px;
+    width: 100%;
+}
+
+.linea_cafe{
+    background-color: #e7d495;
+    height: 12px;
+    width: 100%;
+}
+
+.linea_azul{
+    background-color: #358cd4;
+    height: 12px;
+    width: 100%;
+}
+
+
+.formbag_imagen_paquetes{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/comiditasmercadoencasa-63f98.appspot.com/o/img_banner%2Fpaquetes_banner.jpeg?alt=media&token=f2b34df9-b6e9-4d45-be9e-9e33354ad8ef");
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+}
+
+
+.formbag_imagen_verduras{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/comiditasmercadoencasa-63f98.appspot.com/o/img_banner%2Fverduras_banner.jpeg?alt=media&token=94913afb-0828-4c6f-ae32-f5fb4a32c024");
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+}
+
+.formbag_imagen_frutas{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/comiditasmercadoencasa-63f98.appspot.com/o/img_banner%2Ffrutas_banner.jpeg?alt=media&token=8dea2283-74f3-4147-bce5-af021b14f2e0");
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+}
+
+.formbag_imagen_basicos{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/comiditasmercadoencasa-63f98.appspot.com/o/img_banner%2Fbasicos_banner.jpeg?alt=media&token=e8b687ef-0b65-40d3-a46d-15f6eea0c99e");
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+}
+
+
+.contenedor_imagen{
+    margin-left: 10%;
+    border: 2px solid #dee2e6!important;
+    height: 200px;
+    box-shadow: 0.0rem 0.0rem 0.3rem rgba(0,0,0,.10)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_info{
+    margin-left: 13%;
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_producto{
+    height: 150px;
+    width: auto;
+    max-width: 100%;
+}
+
+.imagen_paquete{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+
+.estilo_checkbox{
+    font-size: large;
+    width: 16px !important;
+    height: 16px !important;
+    text-align: center;
+    
+}
+
+.text_seleccion_precio{
+    margin-top: 0.3rem;
+}
+
+.estilo_boton_pedido{
+    color: #fff;
+    background-color: #26b914;
+    border-color: #478b4b;
+}
+
+.estilo_productos_carrito{
+    height: 300px;
+	overflow-y: scroll;
+}
+
+
+.boton_flotante{
+    color: rgb(0, 0, 0);
+    background: #ffffffaf;
+    border-color: #000000;
+    position:fixed; /*El div será ubicado con relación a la pantalla*/
+    bottom:5px;
+    right:10px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border-radius: 20%;
+    z-index: 1;
+    box-shadow: .8em .5rem .5rem rgba(0,0,0,.20)!important;
+
+    width: 5em;
+    height: 5em;
+}
+
+.modalContainer {
+    background-color: rgba(0, 0, 0, .8);
+    width:100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1100;
+    display:flex;
+    justify-content: center;
+}
+
+.modalBox {
+    width: 500px;
+    align-self: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 800px) {
+    .formbag_imagen_paquetes{
+        height: 75px;
+    }
+
+    .formbag_imagen_verduras{
+        height: 75px;
+    }
+
+    .formbag_imagen_frutas{
+        height: 75px;
+    }
+    
+    .formbag_imagen_basicos{
+        height: 75px;
+    }
+
+    .boton_flotante{
+            
+        width: 4.5em;
+        height: 4.5em;
+    }
+
+}
+
+

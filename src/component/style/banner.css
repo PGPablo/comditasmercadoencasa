@@ -1,0 +1,25 @@
+.imagen_banner{
+    background-image: url("https://scontent-qro1-1.xx.fbcdn.net/v/t1.0-9/108144257_109094977541928_148607167317338303_o.jpg?_nc_cat=108&_nc_sid=6e5ad9&_nc_eui2=AeESSfCWJq4zGN9t6v2A9_QaI_jFGLOaXPUj-MUYs5pc9QMKCoPs5kNCpFtjL7zWCs-XZV4skucPvbk4dyrYe5om&_nc_ohc=xpoxOx5Uh0EAX-LMBBX&_nc_ht=scontent-qro1-1.xx&oh=52d740af079bd8c59bfe8ce332e4bd29&oe=5F31A4D2");
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    height: 170px;
+    width: 100%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.titulo_banner{
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+}
+
+.linea_amarilla{
+    background-color: #f7ee4e;
+    height: 12px;
+    width: 100%;
+}
+
+.contenido_banner{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+}
